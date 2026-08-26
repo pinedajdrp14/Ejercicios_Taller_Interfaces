@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Compra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Calculadora de compra</h1>
+
+    <form onsubmit="calcular(); return false;">
+
+        <input type="text" id="producto" placeholder="Producto">
+
+        <input type="number" id="precio" placeholder="Precio">
+
+        <input type="number" id="cantidad" placeholder="Cantidad">
+
+        <input type="number" id="descuento" placeholder="Descuento %" value="0">
+
+        <button>Calcular</button>
+
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
