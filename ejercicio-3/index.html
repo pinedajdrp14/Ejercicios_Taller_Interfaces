@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Sistema de notas</h1>
+
+    <form onsubmit="calcularNota(); return false;">
+
+        <input type="text" id="nombre" placeholder="Nombre">
+
+        <input type="number" id="nota1" placeholder="Nota 1" step="0.1">
+
+        <input type="number" id="nota2" placeholder="Nota 2" step="0.1">
+
+        <input type="number" id="nota3" placeholder="Nota 3" step="0.1">
+
+        <button>Calcular nota</button>
+
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
